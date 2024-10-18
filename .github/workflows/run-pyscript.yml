@@ -21,4 +21,4 @@ jobs:
 
       - name: Run Python script
         run: |
-          echo "I WILL SET THE SEAS ABLAZE!!!"  # Сообщение, которое будет выводиться в логах
+          echo "I WILL SET THE SEAS ABLAZE!!!"  
