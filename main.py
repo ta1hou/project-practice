@@ -1,0 +1,1 @@
+print("Shoudo sakusen JIKKOU")

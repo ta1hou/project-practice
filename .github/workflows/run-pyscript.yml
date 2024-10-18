@@ -1,0 +1,24 @@
+name: Run Python Script on Push
+
+# Указываем, когда будет запускаться Action
+on:
+  push:
+    branches:
+      - main  # Событие запускается при пуше в ветку main (или укажите вашу ветку)
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest  # Указываем окружение (в данном случае Ubuntu)
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3  # Получаем код вашего репозитория
+
+      - name: Set up Python
+        uses: actions/setup-python@v4  # Устанавливаем Python в среде GitHub Actions
+        with:
+          python-version: '3.12.3'  # Задаем версию Python (можно изменить на нужную)
+
+      - name: Run Python script
+        run: |
+          echo "I WILL SET THE SEAS ABLAZE!!!"  # Сообщение, которое будет выводиться в логах
