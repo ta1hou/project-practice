@@ -15,4 +15,4 @@ jobs:
           python-version: '3.12.3'  
       - name: Run Python script
         run: |
-          echo "dcnfdbnm ye;yjt"  
+          echo "сообщение"  
