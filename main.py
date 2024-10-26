@@ -1,1 +1,1 @@
-print("Shoudo sakusen JIKKOU !!")
+print("Shoudo sakusen JIKKOU !!!")
